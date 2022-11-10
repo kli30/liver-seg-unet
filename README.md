@@ -22,11 +22,11 @@ An example batch from the training dataset:
 ## Results
 ### Performance metric
 <a href='https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient'>Dice coefficient</a> was used for evaluation. 
-### Dice on validation dataset
+### Validation dataset
 dice coefficient: 97.2%, averaged across 494 images. 
 <p align="center"><img src="img/prediction.png" style></img></p>
 
-### Dice on independent testing dataset
+### Independent testing dataset
 dice coefficient: 95.2%, averaged across 349 images. 
 <p align="center"><img src="img/test.png" style></img></p>
 
