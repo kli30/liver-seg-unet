@@ -3,9 +3,9 @@
 <p>liver images were described in this <a href='https://arxiv.org/pdf/1702.05970.pdf'>research paper</a>.</p>
 
 ## Datasets
-The raw data- in nifti format (nii.gz)- is from <a href='https://www.dropbox.com/s/8h2avwtk8cfzl49/ircad-dataset.zip?dl=0'>here</a>, and is put under the folders data/{train,test}/nii/.
+The raw data in nifti format(nii.gz) are from <a href='https://www.dropbox.com/s/8h2avwtk8cfzl49/ircad-dataset.zip?dl=0'>here</a>, and are put under the folders: data/{train,test}/nii/.
 
-The program first converts slices of 3D nifti images into 2D png images (each slice corresponds to a png image), in order to easily incoperate data augmentation.
+The program first converts nifti images into 2D png images (each slice of the 3D image corresponds to a png image), in order to incorporate data augmentation easily.
 
 ### Training, validation, and testing datasets
 There are 20 subjects in total. Eighteen of them will be used for training and validation,resulting in 1980 images for training and 494 images for validation.
