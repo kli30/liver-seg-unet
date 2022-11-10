@@ -19,15 +19,15 @@ An example batch from the training dataset:
 <p>Loss function: CrossEntropyLossFlat</p>
 <p align="center"><img src="img/loss.png" style></img></p>
  
-
-## Segmentation performance
-<a href='https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient'>Dice coefficient</a> was used for evaluation. 
-
 ## Results
-Validation dataset, dice coefficient: 97.2%; 
+### Performance metric
+<a href='https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient'>Dice coefficient</a> was used for evaluation. 
+### Dice on validation dataset
+dice coefficient: 97.2%, averaged across 494 images. 
 <p align="center"><img src="img/prediction.png" style></img></p>
 
-Independent testing dataset: dice coefficient: 95.2%; 
+### Dice on independent testing dataset
+dice coefficient: 95.2%, averaged across 349 images. 
 <p align="center"><img src="img/test.png" style></img></p>
 
 ## How to run
