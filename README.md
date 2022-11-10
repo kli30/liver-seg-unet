@@ -31,9 +31,10 @@ Independent testing dataset: dice coefficient: 95.2%;
 <p align="center"><img src="img/test.png" style></img></p>
 
 ## How to run
-1. create env 
-conda env create -f unet-env.yml
+1. create env unet: 
+<p> conda env create -f unet-env.yml </p>
 2. jupyter notebook
+<p> open the unet-kl notebook and run </p>
 
 ## TODOs: 
 1. Testing time augmentation.
