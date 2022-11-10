@@ -31,7 +31,7 @@ Independent testing dataset: dice coefficient: 95.2%;
 <p align="center"><img src="img/test.png" style></img></p>
 
 ## How to run
-1. create env unet: 
+1. create env unet 
 <p> conda env create -f unet-env.yml </p>
 2. jupyter notebook
 <p> open the unet-kl notebook and run </p>
@@ -39,3 +39,7 @@ Independent testing dataset: dice coefficient: 95.2%;
 ## TODOs: 
 1. Testing time augmentation.
 2. Imbalance of liver/non-liver tissues.
+
+## Acknowledgments
+* <a href='https://pypi.org/project/fastai/'> fastai package </a> 
+* Datasets from <a href='https://github.com/soribadiaby/Deep-Learning-liver-segmentation'> Deep-Learning-liver-segmentation </a>
