@@ -30,6 +30,11 @@ Validation dataset, dice coefficient: 97.2%;
 Independent testing dataset: dice coefficient: 95.2%; 
 <p align="center"><img src="img/test.png" style></img></p>
 
+## How to run
+1. create env 
+conda env create -f unet-env.yml
+2. jupyter notebook
+
 ## TODOs: 
 1. Testing time augmentation.
 2. Imbalance of liver/non-liver tissues.
