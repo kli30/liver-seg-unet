@@ -3,7 +3,7 @@
 <p>liver images were described in this <a href='https://arxiv.org/pdf/1702.05970.pdf'>research paper</a>.</p>
 
 ## Datasets
-The raw data in nifti format(nii.gz) are from <a href='https://www.dropbox.com/s/8h2avwtk8cfzl49/ircad-dataset.zip?dl=0'>here</a>, and are put under the folders: data/{train,test}/nii/.
+The raw data in nifti format(nii.gz) are from <a href='https://www.dropbox.com/s/8h2avwtk8cfzl49/ircad-dataset.zip?dl=0'>here</a>, and are put under the folders: `data/{train,test}/nii/`.
 
 The program first converts nifti images into 2D png images (each slice of the 3D image corresponds to a png image), in order to incorporate data augmentation easily.
 
@@ -31,10 +31,10 @@ Independent testing dataset: dice coefficient: 95.2%;
 <p align="center"><img src="img/test.png" style></img></p>
 
 ## How to run
-* create env unet 
-<p> conda env create -f unet-env.yml </p>
-* jupyter notebook
-<p> open the unet-kl notebook and run step-by-step </p>
+- create env unet 
+<p>`conda env create -f unet-env.yml` </p>
+- jupyter notebook
+<p>open the unet-kl notebook and run step-by-step.</p>
 
 ## TODOs: 
 1. Testing time augmentation.
