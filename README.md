@@ -16,7 +16,7 @@ An example batch from the training dataset:
 
 ## Models
 Two models were constructed and compared. 
-### Vanilla unet
+### Vanilla Unet
 <p> This is a vanilla unet model, based on the original UNet paper. </p>
 
 ### Unet+Resnet
