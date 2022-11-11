@@ -14,7 +14,12 @@ An example batch from the training dataset:
 <p align="center"><img src="img/batch.png" style></img></p>
 
 
-## Model and trainning
+## Models
+Two models were constructed and compared. 
+### Vanilla unet
+<p> This is a vanilla unet model, based on the original UNet paper. </p>
+
+### Unet+Resnet
 <p>The neural network is build on the fastai platform with unet_learner. The encoder of the unet is a pretrained resnet34 neural network. Context information of a  layer of the encoder is used in the corresponding layer of the decoder through hook mechanism. </p>
 <p>Loss function: CrossEntropyLossFlat</p>
 <p align="center"><img src="img/loss.png" style></img></p>
@@ -23,11 +28,11 @@ An example batch from the training dataset:
 ### Performance metric
 <a href='https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient'>Dice coefficient</a> was used for evaluation. 
 ### Validation dataset
-dice coefficient: 97.2%, averaged across 494 images. 
+Unet+Resnet: 97.2%; Vanilla Unet: 92.2%;  averaged across 494 images. 
 <p align="center"><img src="img/prediction.png" style></img></p>
 
 ### Independent testing dataset
-dice coefficient: 95.2%, averaged across 349 images. 
+Unet+Resnet: dice coefficient: 95.2%, averaged across 349 images. 
 <p align="center"><img src="img/test.png" style></img></p>
 
 ## How to run
